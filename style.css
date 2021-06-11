@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+pre {
+  margin: 20px;
+  width: 100%;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* p {
+  word-break: break-all;
+} */
+
+.image p {
+  line-height: 27px;
+  margin: 0;
+  letter-spacing: 0px;
+  margin-top: -23px;
+  font-size: 6px;
+}
